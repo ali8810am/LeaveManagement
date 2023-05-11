@@ -33,6 +33,7 @@ namespace LeaveManagement.Presistence.Repositories
             catch (Exception e)
             {
                 Console.WriteLine(e);
+
                 throw;
             }
         }
